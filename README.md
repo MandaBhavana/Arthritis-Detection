@@ -79,30 +79,7 @@ Due to the challenging nature of multi-class medical image classification and da
 
 ---
 
-## 📦 Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/MandaBhavana/Arthritis-Detection.git
-cd Arthritis-Detection
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Run the Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your browser.
 
 ---
 
@@ -113,7 +90,6 @@ This project uses the **KneeXrayMini** dataset available on Kaggle.
 Dataset:
 https://www.kaggle.com/datasets/tommyngx/kneexraymini
 
-The dataset is **not included** in this repository due to its size.
 
 ---
 
@@ -138,5 +114,4 @@ It is **not intended for clinical use**, medical diagnosis, or treatment decisio
 - Improve classification accuracy using larger datasets
 - Experiment with newer deep learning architectures
 - Add Grad-CAM visualizations for model interpretability
-- Deploy the application on Streamlit Cloud
 - Improve user interface and user experience
