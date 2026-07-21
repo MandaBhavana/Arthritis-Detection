@@ -3,7 +3,7 @@ from pathlib import Path
 import tensorflow as tf
 from tensorflow.keras import layers, models
 
-# Project paths
+
 DATASET_PATH = Path("KneeXrayMini")
 TRAIN_PATH = DATASET_PATH / "train"
 VAL_PATH = DATASET_PATH / "val"
@@ -12,13 +12,13 @@ MODEL_PATH = Path("models")
 
 MODEL_PATH.mkdir(exist_ok=True)
 
-# Settings
+
 IMAGE_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 10
 NUM_CLASSES = 5
 
-# Load training images
+
 train_dataset = tf.keras.utils.image_dataset_from_directory(
     TRAIN_PATH,
     image_size=IMAGE_SIZE,
@@ -26,7 +26,7 @@ train_dataset = tf.keras.utils.image_dataset_from_directory(
     label_mode="categorical",
 )
 
-# Load validation images
+
 validation_dataset = tf.keras.utils.image_dataset_from_directory(
     VAL_PATH,
     image_size=IMAGE_SIZE,
@@ -34,7 +34,7 @@ validation_dataset = tf.keras.utils.image_dataset_from_directory(
     label_mode="categorical",
 )
 
-# Load test images
+
 test_dataset = tf.keras.utils.image_dataset_from_directory(
     TEST_PATH,
     image_size=IMAGE_SIZE,
@@ -45,14 +45,14 @@ test_dataset = tf.keras.utils.image_dataset_from_directory(
 
 print("Classes:", train_dataset.class_names)
 
-# Improve loading speed
+
 autotune = tf.data.AUTOTUNE
 
 train_dataset = train_dataset.prefetch(buffer_size=autotune)
 validation_dataset = validation_dataset.prefetch(buffer_size=autotune)
 test_dataset = test_dataset.prefetch(buffer_size=autotune)
 
-# Data augmentation
+
 data_augmentation = models.Sequential(
     [
         layers.RandomRotation(0.03),
@@ -61,7 +61,7 @@ data_augmentation = models.Sequential(
     ]
 )
 
-# CNN model
+
 model = models.Sequential(
     [
         layers.Input(shape=(224, 224, 3)),
@@ -109,7 +109,7 @@ callbacks = [
     ),
 ]
 
-# Train the model
+
 model.fit(
     train_dataset,
     validation_data=validation_dataset,
@@ -117,13 +117,13 @@ model.fit(
     callbacks=callbacks,
 )
 
-# Test the model
+
 test_loss, test_accuracy = model.evaluate(test_dataset)
 
 print("Test loss:", test_loss)
 print("Test accuracy:", test_accuracy)
 
-# Save final model
+
 model.save(MODEL_PATH / "arthritis_cnn.keras")
 
 print("Model saved successfully.")
