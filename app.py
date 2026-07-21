@@ -49,7 +49,7 @@ st.markdown(
         font-weight: 750;
         line-height: 1.15;
         margin-bottom: 0.5rem;
-        color: #252936;
+        color: lightblue;
     }
 
     .subtitle {
@@ -69,7 +69,7 @@ st.markdown(
     .info-title {
         font-size: 1rem;
         font-weight: 700;
-        color: #252936;
+        color: gray;
         margin-bottom: 0.35rem;
     }
 
@@ -173,7 +173,7 @@ IMG_WIDTH = model.input_shape[2]
 
 
 st.markdown(
-    '<div class="main-title">🦴 Knee Arthritis Detection</div>',
+    '<div class="main-title">🦴 Arthritis Detection</div>',
     unsafe_allow_html=True,
 )
 
