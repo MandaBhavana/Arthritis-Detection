@@ -1,8 +1,8 @@
-# 🦴 Knee Arthritis Detection
+# Arthritis Detection
 
 An end-to-end deep learning application for classifying knee osteoarthritis severity from knee X-ray images using **TensorFlow**, **DenseNet121**, and **Streamlit**.
 
-## 📖 Overview
+##  Overview
 
 This project predicts the severity of knee osteoarthritis from X-ray images by classifying them into one of five grades (Grade 0–4). The application provides an interactive web interface where users can upload an X-ray image and receive the predicted arthritis grade along with the model's confidence.
 
@@ -10,7 +10,7 @@ This project predicts the severity of knee osteoarthritis from X-ray images by c
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Upload knee X-ray images (PNG, JPG, JPEG)
 - Deep learning-based severity classification
@@ -21,7 +21,7 @@ This project predicts the severity of knee osteoarthritis from X-ray images by c
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - TensorFlow / Keras
@@ -32,7 +32,7 @@ This project predicts the severity of knee osteoarthritis from X-ray images by c
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Arthritis-Detection/
@@ -52,7 +52,7 @@ Arthritis-Detection/
 ---
 
 
-## 🧠 Models
+##  Models
 
 Two deep learning models were developed and evaluated:
 
@@ -77,7 +77,7 @@ Classes:
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | Test Accuracy |
 |--------|--------------:|
@@ -99,7 +99,7 @@ Due to the challenging nature of multi-class medical image classification and da
 
 ---
 
-## 📚 Dataset
+##  Dataset
 
 This project uses the **KneeXrayMini** dataset available on Kaggle.
 
@@ -109,7 +109,7 @@ https://www.kaggle.com/datasets/tommyngx/kneexraymini
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This application is designed solely for educational and research purposes.
 
@@ -117,14 +117,14 @@ It is **not intended for clinical use**, medical diagnosis, or treatment decisio
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Bhavana Manda**
 
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Improve classification accuracy using larger and more diverse datasets.
 - Experiment with advanced deep learning architectures such as EfficientNet and Vision Transformers.
