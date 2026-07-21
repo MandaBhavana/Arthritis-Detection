@@ -90,12 +90,6 @@ st.markdown(
         border-radius: 14px;
     }
 
-    div[data-testid="stMetric"] {
-        background-color: #f8fafc;
-        border: 1px solid #e4e9f0;
-        border-radius: 12px;
-        padding: 1rem;
-    }
 
     .result-card {
         background-color: #f7f9fc;
@@ -173,7 +167,7 @@ IMG_WIDTH = model.input_shape[2]
 
 
 st.markdown(
-    '<div class="main-title">🦴 Arthritis Detection</div>',
+    '<div class="main-title">(🦴 Arthritis Detection</div>',
     unsafe_allow_html=True,
 )
 
