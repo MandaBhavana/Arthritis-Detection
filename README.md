@@ -105,7 +105,6 @@ It is **not intended for clinical use**, medical diagnosis, or treatment decisio
 
 **Bhavana Manda**
 
-- GitHub: https://github.com/MandaBhavana
 
 ---
 
