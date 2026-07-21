@@ -68,7 +68,31 @@ Classes:
 - Grade 4 – Severe
 
 ---
+## 🧠 Models
 
+Two deep learning models were developed and evaluated:
+
+### 1. Custom Convolutional Neural Network (CNN)
+- Built using TensorFlow/Keras
+- Multiple convolution and max-pooling layers
+- Fully connected classification head
+- Used as the baseline model
+
+### 2. DenseNet121 (Transfer Learning)
+- Pre-trained on ImageNet
+- Fine-tuned on the KneeXrayMini dataset
+- Achieved the best performance among the tested models
+
+---
+
+## 📊 Model Performance
+
+| Model | Test Accuracy |
+|--------|--------------:|
+| Custom CNN | **38.60%** |
+| DenseNet121 | **44.75%** |
+
+The DenseNet121 transfer learning model outperformed the custom CNN and was selected for deployment in the Streamlit application.
 ## 📈 Performance
 
 The best performing model achieved approximately:
