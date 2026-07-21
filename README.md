@@ -51,23 +51,7 @@ Arthritis-Detection/
 
 ---
 
-## 📊 Model
 
-- Architecture: DenseNet121
-- Transfer Learning
-- Five-class classification
-- Optimizer: Adam
-- Loss Function: Sparse Categorical Crossentropy
-
-Classes:
-
-- Grade 0 – Normal
-- Grade 1 – Doubtful
-- Grade 2 – Mild
-- Grade 3 – Moderate
-- Grade 4 – Severe
-
----
 ## 🧠 Models
 
 Two deep learning models were developed and evaluated:
@@ -82,6 +66,14 @@ Two deep learning models were developed and evaluated:
 - Pre-trained on ImageNet
 - Fine-tuned on the KneeXrayMini dataset
 - Achieved the best performance among the tested models
+
+Classes:
+
+- Grade 0 – Normal
+- Grade 1 – Doubtful
+- Grade 2 – Mild
+- Grade 3 – Moderate
+- Grade 4 – Severe
 
 ---
 
