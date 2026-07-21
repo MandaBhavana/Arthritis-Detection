@@ -1,12 +1,14 @@
 # Arthritis Detection
 
 An end-to-end deep learning application for classifying knee osteoarthritis severity from knee X-ray images using **TensorFlow**, **DenseNet121**, and **Streamlit**.
-
+https://arthritis-detection-e9bwsz9jjtnhavztfnq3qh.streamlit.app/
 ##  Overview
 
 This project predicts the severity of knee osteoarthritis from X-ray images by classifying them into one of five grades (Grade 0–4). The application provides an interactive web interface where users can upload an X-ray image and receive the predicted arthritis grade along with the model's confidence.
 
 > **Note:** This project is intended for educational and research purposes only. It is **not** a medical diagnostic tool.
+<img width="1376" height="853" alt="image" src="https://github.com/user-attachments/assets/d1ada2ee-eee3-4b6f-997d-0ef09b01f905" />
+
 
 ---
 
