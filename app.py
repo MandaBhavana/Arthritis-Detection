@@ -27,7 +27,7 @@ GRADE_DESCRIPTIONS = [
 
 
 st.set_page_config(
-    page_title="Knee Arthritis Detection",
+    page_title="Arthritis Detection",
     page_icon="🦴",
     layout="centered",
 )
