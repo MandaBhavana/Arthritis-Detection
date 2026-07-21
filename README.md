@@ -124,9 +124,11 @@ It is **not intended for clinical use**, medical diagnosis, or treatment decisio
 
 ---
 
-## ⭐ Future Improvements
+## 🚀 Future Improvements
 
-- Improve classification accuracy using larger datasets
-- Experiment with newer deep learning architectures
-- Add Grad-CAM visualizations for model interpretability
-- Improve user interface and user experience
+- Improve classification accuracy using larger and more diverse datasets.
+- Experiment with advanced deep learning architectures such as EfficientNet and Vision Transformers.
+- Add Grad-CAM visualizations to improve model interpretability.
+- Develop a multimodal model by incorporating patient clinical information.
+- Expand the application to detect and classify conditions affecting other body regions, such as the hip, shoulder, spine, hand, and ankle.
+- Support multiple medical imaging modalities, including X-rays, MRI, and CT scans.
