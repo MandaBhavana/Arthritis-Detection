@@ -167,7 +167,7 @@ IMG_WIDTH = model.input_shape[2]
 
 
 st.markdown(
-    '<div class="main-title">(🦴 Arthritis Detection</div>',
+    '<div class="main-title">🦴 Arthritis Detection</div>',
     unsafe_allow_html=True,
 )
 
