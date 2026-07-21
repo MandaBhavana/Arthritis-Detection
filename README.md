@@ -29,6 +29,7 @@ This project predicts the severity of knee osteoarthritis from X-ray images by c
 - Streamlit
 - NumPy
 - Pillow
+- cnn
 
 ---
 
