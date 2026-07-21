@@ -115,7 +115,7 @@ st.markdown(
     .result-value {
         font-size: 1.45rem;
         font-weight: 700;
-        color: #667085;
+        color: #252936;
         margin-bottom: 0.5rem;
     }
 
